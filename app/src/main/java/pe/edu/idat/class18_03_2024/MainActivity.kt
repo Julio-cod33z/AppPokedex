@@ -50,11 +50,8 @@ class MainActivity : AppCompatActivity() {
                             getPokemonesRetrofit()
                         }
                     }
-
-
                 }
             }
-
         })
         binding.rvPokemon.adapter = pokemonAdapter
         getPokemonesRetrofit()
